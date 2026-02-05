@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee</title>
+    <link rel="stylesheet" href="BAI4.css">
+</head>
+<body>
+
+<form class="employee-form">
+
+    <!-- BASIC INFO -->
+    <div class="section">
+        <div class="section-title">Basic Info</div>
+
+        <div class="row">
+            <label>Employee ID</label>
+            <span class="text">9</span>
+        </div>
+
+        <div class="row">
+            <label>Last Name</label>
+            <span class="text">Dodsworth</span>
+        </div>
+
+        <div class="row">
+            <label>First Name</label>
+            <input type="text" value="Anne">
+        </div>
+
+        <div class="row">
+            <label>Gender</label>
+            <div class="options">
+                <label><input type="radio" name="gender"> Male</label>
+                <label><input type="radio" name="gender"> Female</label>
+                <label><input type="radio" name="gender"> XXX</label>
+                <label><input type="radio" name="gender" checked> ZZZ</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <label>Title</label>
+            <input type="text" value="Sales Representative">
+        </div>
+
+        <div class="row">
+            <label>Birth Date</label>
+            <input type="text" value="1969-07-02 00:00:00">
+        </div>
+
+        <div class="row">
+            <label>Hire Date</label>
+            <input type="text" value="1994-11-15 00:00:00">
+        </div>
+
+        <div class="row">
+            <label>SSN # (if applicable)</label>
+            <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Reports To</label>
+            <select>
+                <option>Buchanan</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- CONTACT INFO -->
+    <div class="section">
+        <div class="section-title">Contact Info</div>
+
+        <div class="row">
+            <label>Email</label>
+            <input type="email" value="name@example.com">
+        </div>
+
+        <div class="row">
+            <label>Address</label>
+            <input type="text" value="7 Houndstooth Rd.">
+        </div>
+
+        <div class="row">
+            <label>City</label>
+            <input type="text" value="London">
+        </div>
+
+        <div class="row">
+            <label>Region</label>
+            <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Postal Code</label>
+            <input type="text" value="WG2 7LT">
+        </div>
+
+        <div class="row">
+            <label>Country</label>
+            <select>
+                <option>Russian Federation</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <label>US Home Phone</label>
+            <input type="text" value="(234)234-2342">
+        </div>
+
+        <div class="row">
+            <label>Photo</label>
+            <input type="text" value="EmpID9.bmp">
+        </div>
+    </div>
+
+    <!-- OPTIONAL INFO -->
+    <div class="section">
+        <div class="section-title">Optional Info</div>
+
+        <div class="row">
+            <label>Notes</label>
+            <textarea rows="5">
+Anne has a BA degree in English from St. Lawrence College.
+She is fluent in French and German.
+            </textarea>
+        </div>
+
+        <div class="row">
+            <label>Preferred Shift</label>
+            <div class="options">
+                <label><input type="checkbox" checked> Regular</label>
+                <label><input type="checkbox"> Gravy Yard</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <label>Active?</label>
+            <input type="checkbox" checked>
+        </div>
+
+        <div class="row">
+            <label>Are you human?</label>
+            <strong class="captcha">TIDAWO</strong>
+            <span class="hint">Click to change</span>
+            <input type="text">
+        </div>
+    </div>
+
+    <!-- BUTTON -->
+    <div class="actions">
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+    </div>
+
+</form>
+
+</body>
+</html>
